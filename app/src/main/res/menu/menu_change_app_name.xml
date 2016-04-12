@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.sid.appiconlauncher.MainActivity">
+
+    <item android:id="@+id/action_app_red"
+          android:orderInCategory="100"
+          android:title="@string/app_red"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_app_green"
+          android:orderInCategory="100"
+          android:title="@string/app_green"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_app_blue"
+          android:orderInCategory="100"
+          android:title="@string/app_blue"
+          app:showAsAction="never"/>
+</menu>
