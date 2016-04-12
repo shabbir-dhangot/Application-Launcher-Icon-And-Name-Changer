@@ -86,35 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
                 popup.show();//showing popup menu
             }
-        });//closing the setOnClickListener method
-
-
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                getPackageManager().setComponentEnabledSetting(
-//                        new ComponentName("com.sid.appiconlauncher", ".MainActivity02"),
-//                        PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
-//
-//                getPackageManager().setComponentEnabledSetting(
-//                        new ComponentName("com.sid.appiconlauncher", ".MainActivity01"),
-//                        PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
-
-
-//                getPackageManager().setComponentEnabledSetting(
-//                        new ComponentName("com.sid.appiconlauncher", "com.sid.appiconlauncher.MainActivity-two"),
-//                        PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
-//                try {
-//                    getPackageManager().setComponentEnabledSetting(
-//                            new ComponentName("com.sid.appiconlauncher", "com.sid.appiconlauncher.MainActivity-One"),
-//                            PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
-//                } catch (Exception e) {
-//                }
-//            }
-//        });
-
-
+        });
     }
 
 
